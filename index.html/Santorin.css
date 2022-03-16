@@ -1,0 +1,101 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:3000px;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(IMAGE/santorini.jpg);
+    background-size: cover;
+     height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.entete{
+    width: 100%;
+    background-color:#0004;
+    color:blue;
+}
+.head{
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.entete ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:140px;
+}
+.entete .head .A{
+    display: inline-block;
+    position: relative;
+    transition: 0.7s all;
+}
+.entete .head .A a{
+    padding:12px 24px;
+    text-decoration:none;
+    color:white;
+    display: block;
+}
+.A:hover{
+    background-color:blue;
+    transform: skewX(20deg);
+    animation-direction: alternate;
+    animation:skew 1s infinite;
+}
+#acc{
+   background-color:#d3c7a6;
+}
+
+  
+
+#sect1{
+    padding: 110px;
+}
+.content{
+     padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  p {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 40px;
+    font-family: Palatino, URW Palladio L,serif;
+    font-weight: 200;
+}
+.vid video{
+    width: 750px;
+    height: 450px;
+}
+#sect2{
+    padding-bottom:70px;
+    padding-left:110px;
+    padding-right: 110px;
+}
+#sect3{
+    padding-bottom:70px;
+    padding-left:110px;
+    padding-right: 110px;
+}
+
+.content2{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+}
+.color{
+    color:blue ;
+}
+.imge img{
+    width: 750px;
+    height: 450px;
+}
